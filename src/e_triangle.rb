@@ -1,8 +1,10 @@
-require_relative 'rectangle'
+require_relative '../src/triangle'
 
-class Square < Rectangle
+# equilateral triangle (all sides same length)
+class ETriangle < Triangle
   # just define `initialize` and everything else should work ;)
   # it should only take one argument
   # and call super with the correct number of arguments
   # how many arguments does the super class take?
+
 end

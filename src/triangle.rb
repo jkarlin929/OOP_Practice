@@ -8,7 +8,7 @@ class Triangle < Shape
   end
 
   def initialize(a, b, c)
-    # gotta do something here...
+    # call super with the correct argument(s)
   end
 
   def area

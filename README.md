@@ -1,12 +1,21 @@
 # Ruby Classes Lab
 
-Complete this lab after the [Ruby classes lecture](https://git.generalassemb.ly/wdi-nyc-delorean/LECTURE_U04_D02_Ruby_OOP)
+Complete this lab after the [Ruby classes lecture](https://git.generalassemb.ly/wdi-nyc-hamilton/LECTURE_U04_D02_Ruby_OOP)
 
-## More Shape classes!
+## Let's create Shape classes!
 
-Remember this [ES6 classes lab](https://git.generalassemb.ly/wdi-nyc-delorean/LAB_U03_D01_ES6-Classes) where we defined shape classes?
+We are building this hierarchy:
 
-We are doing it again!
+<img src="hierarchy.png" width="600px"/>
+
+Get the tests to pass by editing the `src` files in the following order:
+
+* `shape.rb`
+* `rectangle.rb`
+* `square.rb`
+* `triangle.rb`
+* `e_triangle.rb`
+* `r_triangle.rb` (finished for you but take a look)
 
 ### Setup
 
@@ -19,9 +28,16 @@ If you have not yet done so
 
 Look at the tests (but do not edit them).  Edit the files in the `src` directory and make the specs pass!
 
-Do them **in order**: `Shape`, `Triangle`, `Rectangle`, `Square`
+Do them **in order**:
 
-Run `rspec test/shape_spec.rb` and make all the test go green.  (Remember you can also run with the `--fail-fast` option).  Then do the other shapes in order.
+* `rspec test/shape_spec.rb      --fail-fast`
+* `rspec test/rectangle_spec.rb  --fail-fast`
+* `rspec test/square_spec.rb     --fail-fast`
+* `rspec test/triangle_spec.rb   --fail-fast`
+* `rspec test/e_triangle_spec.rb --fail-fast`
+* `rspec test/r_triangle_spec.rb --fail-fast`
+
+If you cannot or prefer not to run the specs, just run `ruby sandbox.py` and look at the output.  Fix each failing line by editing the `src` directory
 
 ---
 
