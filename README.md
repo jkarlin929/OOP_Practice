@@ -1,6 +1,6 @@
 # Ruby Classes Lab
 
-Complete this lab after the [Ruby classes lecture](https://git.generalassemb.ly/wdi-nyc-lambda/LECTURE_U04_D02_Ruby_OOP)
+Complete this lab after the [Ruby classes lecture](https://git.generalassemb.ly/wdi-nyc-octonion/Ruby_OOP)
 
 ## Let's create Shape classes!
 
