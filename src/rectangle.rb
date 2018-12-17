@@ -3,6 +3,7 @@ require_relative 'shape'
 class Rectangle < Shape
 
   # define attr_readers for width and height
+  attr_reader :width, :height, :waaaddaaapp
 
   def initialize(width, height)
     @width = width
@@ -11,4 +12,7 @@ class Rectangle < Shape
   end
 
   # define area
+  def area
+    width * height
+  end
 end
