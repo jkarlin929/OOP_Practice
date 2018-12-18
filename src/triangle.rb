@@ -9,6 +9,7 @@ class Triangle < Shape
 
   def initialize(a, b, c)
     # call super with the correct argument(s)
+    super([a, b, c])
   end
 
   def area
