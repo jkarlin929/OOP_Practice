@@ -7,4 +7,7 @@ class ETriangle < Triangle
   # and call super with the correct number of arguments
   # how many arguments does the super class take?
 
+  def initialize(size)
+    super(size, size, size)
+  end
 end
